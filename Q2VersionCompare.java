@@ -14,4 +14,12 @@ public class Q2VersionCompare {
         }
         return 0;
     }
+
+    public static void main(String[] args) {
+        System.out.println(compareVersion("1.01", "1.001")); 
+        System.out.println(compareVersion("1.0", "1.0.0"));  
+        System.out.println(compareVersion("0.1", "1.1"));    
+        System.out.println(compareVersion("1.2", "1.10"));   
+        System.out.println(compareVersion("1.0.1", "1"));    
+    }
 }
