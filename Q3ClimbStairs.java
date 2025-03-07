@@ -13,4 +13,9 @@ public class Q3ClimbStairs {
         
         return dp[n];
     }
+
+    public static void main(String[] args) {
+        System.out.println(climbStairs(2)); 
+        System.out.println(climbStairs(3)); 
+    }
 }
